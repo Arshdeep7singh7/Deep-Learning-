@@ -1,0 +1,24 @@
+name: robust-cifar-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - seaborn>=0.13
+  - scikit-learn>=1.3
+  - tqdm>=4.66
+  - jupyter
+  - notebook
+  - ipykernel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+      - nbformat>=5.9

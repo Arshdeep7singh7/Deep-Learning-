@@ -1,0 +1,16 @@
+{
+  "method": "augmix",
+  "model": "resnet18_cifar",
+  "dataset": "cifar10",
+  "epochs": 100,
+  "batch_size": 64,
+  "optimizer": "sgd",
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": "cosine_annealing",
+  "augmix_width": 3,
+  "augmix_depth": -1,
+  "augmix_severity": 3,
+  "jsd_weight": 12.0
+}

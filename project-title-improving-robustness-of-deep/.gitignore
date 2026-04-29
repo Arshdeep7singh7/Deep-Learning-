@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/cifar-10-batches-py/
+data/CIFAR-10-C/
+checkpoints/*.pt
+reports/*.csv
+reports/*.json
+reports/figures/*.png
